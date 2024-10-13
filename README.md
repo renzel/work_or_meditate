@@ -1,7 +1,7 @@
 # Work or Meditate
 
 ## Description
-"Work or Meditate" is a browser extension that helps users maintain focus on work-related tasks by monitoring their browsing activity. It captures screenshots of the browser tab when the URL changes and uses AI to classify the content as either work-related or leisure. If leisure content is detected, the extension prompts the user to take a short meditation break.
+"Work or Meditate" is a browser extension that helps users maintain focus on work-related tasks by monitoring their browsing activity. It captures screenshots of the browser tab when the URL changes and uses AI to classify the content as either work-related or leisure. If leisure content is detected, the extension prompts the user to take a short meditation break. Uses Ollama for local and free llm calls.
 
 ## Features
 - Automatically captures screenshots when the base URL changes
