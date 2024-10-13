@@ -1,0 +1,28 @@
+{
+  "manifest_version": 2,
+  "name": "Work or Meditate",
+  "version": "1.0",
+
+  "description": "Takes a screenshot of the browser each time a url changes. Checks whether browser shows work or leisure content.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["workormeditate.js"]
+    }
+  ],
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ]
+
+}
