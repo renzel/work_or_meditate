@@ -14,6 +14,7 @@
 2. Open your browser's extension page (e.g., `chrome://extensions/` for Chrome or `about:addons` for Firefox).
 3. Enable "Developer mode".
 4. Click "Load unpacked" and select the directory containing the extension files.
+5. You also need to install to install Ollama and run `OLLAMA_ORIGINS=moz-extension://* ollama serve`
 
 ## Usage
 Once installed, the extension will run automatically in the background. It will:
@@ -37,7 +38,7 @@ This extension requires the following permissions:
 - `tabs`: To access tab information and capture screenshots
 
 ## Privacy
-Screenshots are processed locally and are not stored or sent to external servers (except the local AI server). The extension does not collect or store any personal data.
+Screenshots are processed locally and are not stored or sent to external servers. The extension does not collect or store any personal data.
 
 ## Development
 To modify or extend this extension:
@@ -49,7 +50,7 @@ To modify or extend this extension:
 Contributions to improve "Work or Meditate" are welcome. Please feel free to submit pull requests or create issues for bugs and feature requests.
 
 ## License
-[Specify your chosen license here, e.g., MIT, GPL, etc.]
+MIT
 
 ## Disclaimer
 This extension is for personal productivity use. It is not intended to monitor or restrict users in any professional or educational setting. Use responsibly and in compliance with your local laws and regulations.
